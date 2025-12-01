@@ -32,9 +32,9 @@ number4AsNumber = parseFloat(number4AsString);
 // output
 console.log("\n");
 console.log(`Hello, ${user}.`);
-console.log(`${number1AsNumber.toFixed(3).padStart(5)}`);
-console.log(`${number2AsNumber.toFixed(5).padStart(1)}`);
-console.log(`${number3AsNumber.toFixed(1).padStart(2)}`);
-console.log(`${number4AsNumber.toFixed(1).padStart(0)}`);
+console.log(`${number1AsNumber.toFixed(3).padStart(10)}`);
+console.log(`${number2AsNumber.toFixed(5).padStart(8)}`);
+console.log(`${number3AsNumber.toFixed(1).padStart(6)}`);
+console.log(`${number4AsNumber.toFixed(1).padStart(3)}`);
 
 console.log("\nDone.");
